@@ -1,0 +1,150 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: palatino, serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #040720;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #E5E4E2;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #E5E4E2;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    color: #B8BC86;
+}
+
+/* PAGE SECTION */
+.page-section {
+    padding: 60px 80px;
+}
+
+/* PHOTO ROWS */
+.photo-row {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+/* PORTRAIT STANDARD (3:4) */
+.img-portrait {
+    width: 250px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* SKILLS CARD */
+.skills-row {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.skill-card {
+    width: 260px;
+    text-align: center;
+}
+
+/* SOCIAL ICONS */
+.icon-square {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.icon-square:hover {
+    transform: scale(1.1);
+}
+
+/* --- ANCHOR LINK BUTTON STYLE --- */
+.anchor-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #040720; /* Dark blue background */
+    color: #E5E4E2 !important; /* Light text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.anchor-btn:hover {
+    background-color: #B8BC86; /* Hover color */
+    color: #000 !important; /* Change text to black on hover */
+}
+
+/* BOTTOM NAV */
+.bottom-nav {
+    margin: 30px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 18px;
+}
+
+.bottom-nav a {
+    text-decoration: none;
+    color: #040720;
+    font-weight: bold;
+}
+
+.bottom-nav a:hover {
+    color: #B8BC86;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    margin-top: 60px;
+}
+
+.footer-subtext {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.footer-line {
+    width: 50%;
+    border: none;
+    height: 1px;
+    background-color: #666;
+    margin: 12px auto;
+}
